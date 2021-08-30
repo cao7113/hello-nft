@@ -1,0 +1,27 @@
+# https://taskfile.dev
+version: '3'
+tasks:
+  mint:
+    cmds:
+      - node scripts/mint-nft.js
+
+  deploy:
+    cmds:
+      - npx hardhat run scripts/deploy.js --network ropsten
+
+  compile:
+    cmds:
+      - npx hardhat compile
+
+  setup-part2:
+    cmds:
+    - npm install @alch/alchemy-web3
+
+  setup-part1:
+    cmds:
+      - npm install --save-dev @nomiclabs/hardhat-ethers 'ethers@^5.0.0'
+      # - npm install dotenv --save
+      #- npm install @openzeppelin/contracts@3.1.0-solc-0.7
+      #- npx hardhat
+      #- npm install --save-dev hardhat
+      #- npm init

@@ -1,0 +1,9 @@
+{
+    "attributes" : [ {
+      "trait_type" : "sports",
+      "value" : "football"
+    }],
+    "description" : "football man",
+    "image" : "https://gateway.pinata.cloud/ipfs/Qme9G9EYAvHFLri5iX4hn4GK87CMvkbs9KURzZMvyGwk2y",
+    "name" : "football"
+}
